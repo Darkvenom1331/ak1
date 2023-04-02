@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+         
+          <ul>
+            <li>
+              <h2>Masala Dosa</h2>
+              <img src="data:image/jpeg;base64,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" alt="Masala Dosa">
+              <h3>Ingredients:</h3>
+              <ul>
+                <li>1 cup rice</li>
+                <li>1/2 cup urad dal</li>
+                <li>1/2 tsp fenugreek seeds</li>
+                <li>Salt to taste</li>
+                <li>Oil as required</li>
+                <li>For the filling:</li>
+                <li>2 cups boiled and mashed potatoes</li>
+                <li>1/2 cup chopped onions</li>
+                <li>1/2 cup chopped tomatoes</li>
+                <li>1 tsp mustard seeds</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1/2 tsp turmeric powder</li>
+                <li>1/2 tsp red chilli powder</li>
+                <li>1 tsp chopped ginger</li>
+                <li>1 tsp chopped garlic</li>
+                <li>2 tbsp chopped coriander leaves</li>
+                <li>Salt to taste</li>
+              </ul>
+              <h2>Instructions:</h2>
+              <ol>
+                <li>Wash and soak the rice, urad dal, and fenugreek seeds in water for at least 4 hours.</li>
+                <li>Grind the soaked ingredients to a smooth batter and let it ferment overnight.</li>
+                <li>Make the filling by heating oil in a pan and adding mustard seeds, cumin seeds, ginger, garlic, and onions.</li>
+                <li>Add tomatoes and spices and cook until the mixture is dry.</li>
+                <li>Heat a non-stick pan and pour a ladleful of the batter on it. Spread it in a circular motion.</li>
+                <li>Add a spoonful of the filling in the center and fold the dosa into a cylinder.</li>
+                <li>Repeat with the remaining batter and filling.</li>
+              </ol>
+            </li>
+            <li>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            
+            
+            
+
+
+            <!-- end of single instruction
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+   
+    <script src="./js/app.js"></script>
+  </body>
+</html>
